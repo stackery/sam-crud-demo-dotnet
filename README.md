@@ -1,4 +1,4 @@
-# Stackery CRUD Demo - Java
+# Stackery CRUD Demo - C#/.NET
 
 This is a sample template for a serverless AWS Lambda application, written in C#/.NET.
 
