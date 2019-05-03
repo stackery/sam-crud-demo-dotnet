@@ -17,23 +17,23 @@ Here is an overview of the files:
 ├── README.md                          <-- This README file
 ├── src                                <-- Source code dir for all AWS Lambda functions
 │   ├── createUser                     <-- Source code dir for createUser function
-│   │   ├── .stackery-config.yaml      <-- Default CLI parameters for current directory
+│   │   ├── .stackery-config.yaml      <-- Default CLI parameters for this directory
 │   │   ├── StackeryFunction.csproj    <-- createUser project config
 │   │   └── Handler.cs                 <-- Source code for createUser
 │   ├── getUser                        <-- Source code dir for getUser function
-│   │   ├── .stackery-config.yaml      <-- Default CLI parameters for current directory
+│   │   ├── .stackery-config.yaml      <-- Default CLI parameters for this directory
 │   │   ├── StackeryFunction.csproj    <-- getUser project config
 │   │   └── Handler.cs                 <-- Source code for getUser
 │   ├── updateUser                     <-- Source code dir for updateUser function
-│   │   ├── .stackery-config.yaml      <-- Default CLI parameters for current directory
+│   │   ├── .stackery-config.yaml      <-- Default CLI parameters for this directory
 │   │   ├── StackeryFunction.csproj    <-- updateUser project config
 │   │   └── Handler.cs                 <-- Source code for updateUser
 │   ├── deleteUser                     <-- Source code dir for deleteUser function
-│   │   ├── .stackery-config.yaml      <-- Default CLI parameters for current directory
+│   │   ├── .stackery-config.yaml      <-- Default CLI parameters for this directory
 │   │   ├── StackeryFunction.csproj    <-- deleteUser project config
 │   │   └── Handler.cs                 <-- Source code for deleteUser
 │   └── listUsers                      <-- Source code dir for listUsers function
-│   │   ├── .stackery-config.yaml      <-- Default CLI parameters for current directory
+│   │   ├── .stackery-config.yaml      <-- Default CLI parameters for this directory
 │   │   ├── StackeryFunction.csproj    <-- listUsers project config
 │   │   └── Handler.cs                 <-- Source code for listUsers
 └── template.yaml                      <-- SAM infrastructure-as-code template
