@@ -57,7 +57,7 @@ Resources:
         - ResourceName: getUser
       CodeUri: src/getUser
       Handler: StackeryFunction::StackeryFunction.Handler::handler
-      Runtime: dotnetcore2.1
+      Runtime: dotnetcore3.1
       MemorySize: 3008
       Timeout: 30
       Tracing: Active
@@ -91,7 +91,7 @@ Resources:
         - ResourceName: updateUser
       CodeUri: src/updateUser
       Handler: StackeryFunction::StackeryFunction.Handler::handler
-      Runtime: dotnetcore2.1
+      Runtime: dotnetcore3.1
       MemorySize: 3008
       Timeout: 30
       Tracing: Active
@@ -125,7 +125,7 @@ Resources:
         - ResourceName: createUser
       CodeUri: src/createUser
       Handler: StackeryFunction::StackeryFunction.Handler::handler
-      Runtime: dotnetcore2.1
+      Runtime: dotnetcore3.1
       MemorySize: 3008
       Timeout: 30
       Tracing: Active
@@ -159,7 +159,7 @@ Resources:
         - ResourceName: deleteUser
       CodeUri: src/deleteUser
       Handler: StackeryFunction::StackeryFunction.Handler::handler
-      Runtime: dotnetcore2.1
+      Runtime: dotnetcore3.1
       MemorySize: 3008
       Timeout: 30
       Tracing: Active
@@ -193,7 +193,7 @@ Resources:
         - ResourceName: listUsers
       CodeUri: src/listUsers
       Handler: StackeryFunction::StackeryFunction.Handler::handler
-      Runtime: dotnetcore2.1
+      Runtime: dotnetcore3.1
       MemorySize: 3008
       Timeout: 30
       Tracing: Active
